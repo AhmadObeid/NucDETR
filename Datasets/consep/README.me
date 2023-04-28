@@ -1,0 +1,5 @@
+The Images/ and masks/ should containt the training and testing images, along with their segmentation masks.
+Each image is associated with its binary mask file.
+These masks are converted into bounding boxes using utils/SegToBB.m
+ForDetection will include the detection information in COCO format
+ForDetection will be filled automatically after using obtaining the bounding boxes information using utils/MakeJSON
